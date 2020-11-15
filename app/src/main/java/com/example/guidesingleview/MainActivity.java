@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 //                .setContentTypeFace(FontUtil.getInstance(getApplicationContext()).getRegularFont())//optional
 //                .setTitleTypeFace(FontUtil.getInstance(getApplicationContext()).getRegularFont())//optional
 
+//                .setButtonBackground(getResources().getDrawable(R.drawable.ic_launcher_background))
                 .setPaddingTitle(40, 10, 40, 10)
                 .setPaddingMessage(40, 10, 40, 10)
                 .setPaddingButton(40, 10, 40, 10)
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPaddingTitle(40, 10, 40, 10)
                 .setPaddingMessage(40, 10, 40, 10)
                 .setPaddingButton(40, 10, 40, 10)
-
+                .setButtonBackground(getResources().getDrawable(R.drawable.shape))
                 .setButtonText("تایید")
 
                 .setDismissType(DismissType.anywhere)
